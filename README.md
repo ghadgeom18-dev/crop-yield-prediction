@@ -1,16 +1,26 @@
-﻿# Crop Yield Prediction Using Machine Learning
+# 🌾 Crop Yield Prediction Using Machine Learning
 
-## Overview
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crop-yield-prediction.streamlit.app)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.9.0-orange.svg)](https://scikit-learn.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> **Formative Assessment 2 (FA 2) — Advanced Data Science (ADS)**  
+> **Author:** Shravani Ghadge (125M1H018)  
+> **GitHub Repository:** [https://github.com/ShravaniGhadge18/crop-yield-prediction](https://github.com/ShravaniGhadge18/crop-yield-prediction)  
+> **Live Web Application:** [https://crop-yield-prediction.streamlit.app](https://crop-yield-prediction.streamlit.app)
+
+---
+
+## 📌 Project Overview
 A complete Machine Learning regression system that predicts Indian agricultural crop yield
 (in tonnes per hectare) using historical district-level agricultural data from
 the Ministry of Agriculture & Farmers Welfare, Government of India.
 
-## Dataset
-- **Source:** India Data Portal (indiadataportal.com)
-- **Underlying Source:** Ministry of Agriculture & Farmers Welfare, GoI
-- **File:** crop-wise-area-production-yield.csv
-- **Records:** 455,359 rows | 16 columns
-- **Period:** 1997-1998 to 2022-2023
+- **Live Streamlit App:** [https://crop-yield-prediction.streamlit.app](https://crop-yield-prediction.streamlit.app)
+- **GitHub Repository:** [https://github.com/ShravaniGhadge18/crop-yield-prediction](https://github.com/ShravaniGhadge18/crop-yield-prediction)
+- **Target Variable:** `yield` (Tonnes per Hectare — T/ha)
+- **Dataset:** 455,359 records spanning 1997–2023 across 34 Indian States & UTs
 
 ## Project Structure
 `
@@ -33,13 +43,15 @@ FA 2/
     -- model_comparison.png
 `
 
-## Machine Learning Models
-| Model | Purpose |
-|-------|---------|
-| Linear Regression | Baseline — simple linear model |
-| Decision Tree | Captures non-linear relationships |
-| Random Forest | Ensemble — best performer |
-| LinearSVR | SVR variant practical for large datasets |
+## Machine Learning Models & Final Performance
+| Model | MAE (T/ha) | RMSE (T/ha) | R² Score | Rank / Notes |
+|:---|:---:|:---:|:---:|:---|
+| **Random Forest Regressor** | **15.8604** | **275.459** | **0.8944** | 🏆 **Best Performer (Selected)** |
+| **Decision Tree Regressor** | 14.1409 | 303.510 | 0.8718 | Fast tree baseline |
+| **LinearSVR** | 25.9360 | 382.075 | 0.7969 | Support Vector Regressor |
+| **Linear Regression** | 27.3285 | 419.031 | 0.7557 | Baseline linear model |
+
+*All models evaluated on the held-out 20% test set (91,072 unseen records) using `TransformedTargetRegressor` with `log1p`/`expm1`.*
 
 ## Key Design Decisions
 - **Target Transformation:** TransformedTargetRegressor with log1p/expm1
