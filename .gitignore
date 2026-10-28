@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Microsoft Office temporary lock files
+~$*.docx
+~$*.xlsx
+
+# Local environment / IDE
+.vscode/
+.idea/
+*.log
+
+# Past unrelated assignments
+125M1H018_Assignment_4/
+
+# Temp files
+*.tmp

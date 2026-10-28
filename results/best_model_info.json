@@ -1,0 +1,14 @@
+{
+    "best_model": "Random Forest",
+    "best_params": {
+        "regressor__model__max_depth": 15,
+        "regressor__model__n_estimators": 50
+    },
+    "best_cv_rmse": 552.4221264219017,
+    "final_metrics": {
+        "MAE": 15.86042897350163,
+        "MSE": 75877.40535155594,
+        "RMSE": 275.4585365378171,
+        "R2": 0.8944365295011566
+    }
+}
