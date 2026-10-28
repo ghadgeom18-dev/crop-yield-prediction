@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Formative Assessment 2 (FA 2) — Advanced Data Science (ADS)**  
-> **Author:** Shravani Ghadge (125M1H018)  
+> **Student:** Om Ghadge (125M1H018) — `@ghadgeom18-dev`  
 > **GitHub Repository:** [https://github.com/ghadgeom18-dev/crop-yield-prediction](https://github.com/ghadgeom18-dev/crop-yield-prediction)  
 > **Live Web Application:** [https://crop-yield-prediction.streamlit.app](https://crop-yield-prediction.streamlit.app)
 
