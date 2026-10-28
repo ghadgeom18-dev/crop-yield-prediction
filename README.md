@@ -7,7 +7,7 @@
 
 > **Formative Assessment 2 (FA 2) — Advanced Data Science (ADS)**  
 > **Author:** Shravani Ghadge (125M1H018)  
-> **GitHub Repository:** [https://github.com/ShravaniGhadge18/crop-yield-prediction](https://github.com/ShravaniGhadge18/crop-yield-prediction)  
+> **GitHub Repository:** [https://github.com/ghadgeom18-dev/crop-yield-prediction](https://github.com/ghadgeom18-dev/crop-yield-prediction)  
 > **Live Web Application:** [https://crop-yield-prediction.streamlit.app](https://crop-yield-prediction.streamlit.app)
 
 ---
@@ -18,7 +18,7 @@ A complete Machine Learning regression system that predicts Indian agricultural 
 the Ministry of Agriculture & Farmers Welfare, Government of India.
 
 - **Live Streamlit App:** [https://crop-yield-prediction.streamlit.app](https://crop-yield-prediction.streamlit.app)
-- **GitHub Repository:** [https://github.com/ShravaniGhadge18/crop-yield-prediction](https://github.com/ShravaniGhadge18/crop-yield-prediction)
+- **GitHub Repository:** [https://github.com/ghadgeom18-dev/crop-yield-prediction](https://github.com/ghadgeom18-dev/crop-yield-prediction)
 - **Target Variable:** `yield` (Tonnes per Hectare — T/ha)
 - **Dataset:** 455,359 records spanning 1997–2023 across 34 Indian States & UTs
 
